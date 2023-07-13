@@ -6,7 +6,6 @@ if(isset($orderInfo["eventId"]))
     $eventId = $orderInfo["eventId"];
 if(isset($_SESSION["checkoutUrl"]))
     $checkoutUrl = $_SESSION["checkoutUrl"];
-var_dump($_SESSION);
 ?>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 

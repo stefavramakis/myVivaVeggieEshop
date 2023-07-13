@@ -77,6 +77,10 @@ section{
    text-align: center;
 }
 
+.delete-btn{
+   background-color: #e74c3c;
+}
+
 .btn:hover,
 .delete-btn:hover,
 .option-btn:hover{

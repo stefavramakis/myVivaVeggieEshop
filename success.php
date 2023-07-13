@@ -1,7 +1,7 @@
 <?php 
-    include 'eshop/header.php';
+    include 'header.php';
 
-    require __DIR__ . '\eshop\models\Order.php';
+    require  'models\Order.php';
 
     session_start();
     
@@ -20,7 +20,7 @@
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
    <!-- custom css file link  -->
-   <link rel="stylesheet" href="eshop/css/style.css">
+   <link rel="stylesheet" href="css/style.css">
 
 </head>
 
